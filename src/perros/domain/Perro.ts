@@ -1,6 +1,6 @@
 import { IPerro } from "./IPerro";
 
-export class Perro{
+export class Perro implements IPerro{
     constructor(
         readonly nombre:string,
         readonly raza:string,

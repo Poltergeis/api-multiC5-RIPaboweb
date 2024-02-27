@@ -1,6 +1,4 @@
-import { Document } from "mongoose"
-
-export interface IPerro extends Document{
+export interface IPerro{
     nombre:string,
     raza:string,
     edad:number,
